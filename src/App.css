@@ -110,3 +110,13 @@ p {
   font-size: 10px;
   letter-spacing: 2px;
 }
+
+@media only screen and (max-width: 375px) {
+  .card-wrapper {
+    width: 300px;
+  }
+
+  .card-header img {
+    width: 300px;
+  }
+}
