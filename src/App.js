@@ -4,7 +4,9 @@ function App() {
   return (
     <div className="app-wrapper">
       <div className="card-wrapper">
-        <section className="card-header"></section>
+        <section className="card-header">
+          <img src="/bg-pattern-card.svg" alt="Background pattern" />
+        </section>
         <section className="card-image">
           <img src="/image-victor.jpg" alt="User profile" />
         </section>
@@ -12,7 +14,7 @@ function App() {
           <div className="main-info">
             <div className="main-info-title">
               <h1>Victor Crest</h1>
-              <p>26</p>
+              <h2>26</h2>
             </div>
             <div className="main-info-subtitle">
               <p>London</p>
